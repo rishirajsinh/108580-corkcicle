@@ -1,0 +1,384 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+.outupnav{
+    width: 100vw;
+    top: 0;
+    position: sticky;
+}
+.upnav{
+     display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2.5vh;
+    padding-left: 1.5vw;
+    top: 0;
+    background-color: white;
+}
+.mainnav{
+    top: 0;
+    position: sticky;
+}
+.nav1 img{
+    height: 3vh;
+    padding-top: 0.5vh;
+}
+.nav1 ul{
+    list-style: none;
+}
+.nav2 ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 2vw;
+    padding-top: 1vh;
+}
+.nav2 a{
+        color: black;
+
+}
+.nav3 ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 1vw;
+    padding-right: 1.5vh;
+}
+.nav3 img{
+    height: 4vh;
+}
+.outmenu{
+    width: 100vw;
+    height: auto;
+    background: linear-gradient(to bottom, #E4E4E4, #FFFFFF);
+    /* border: 2px solid red; */
+    margin-top: 2vh;
+    gap: 2vw;
+
+}
+.menu{
+    width: 8vw;
+    /* border: 2px solid blue; */
+    text-align: center;
+}
+.menu span{
+    font-weight: 550;
+    font-size: 0.9rem;
+}
+.menu img{
+    height: auto;
+    width: 8vw;
+    padding-top: 1vh;
+}
+.outmenu{
+    display: flex;
+    justify-content: center;
+}
+.banner{
+    width: 100vw;
+    height: auto;
+}
+.banner img{
+    width: 100vw;
+    height: auto;
+}
+.gift img{
+    height: auto;
+    width: 23vw;
+}
+.gift span{
+    font-weight: 700;
+}
+.gift{
+    padding: 0;
+    margin: 0;
+    gap: 0;
+    height: auto;
+    width: 40vw;
+    text-align: start;
+}
+.giftout{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 1vw;
+}
+
+
+.gout{
+    display: flex;
+    justify-content: center;
+    padding-top: 8vh;
+    padding-bottom: 5vh;
+
+}
+.designout{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2vw;
+}
+.design{
+    width: 32vw;
+}
+
+.design img{
+    height: auto;
+    width: 32vw;
+}
+.logoout{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3vh;
+}
+.logo{
+    width: 15vw;
+    height: 10vh;
+    
+}
+.logo img{
+    width: 15vw;
+    height: 10vh;
+}
+.yourout{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.your{
+    width: 24vw;
+    height: auto;
+}
+.your img{
+    width: 24vw;
+    height: auto;
+}
+.starout{
+    width: 100vw;
+    height: 65vh;
+    background-image: url(./back.png);
+    margin-top: 4vh;
+    display: block;
+
+}
+.starimageout{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5vh;
+}
+.starimage{
+    width: 32vw;
+    height: auto;
+}
+
+
+.starimage img{
+    width: 32vw;
+    height: auto;
+}
+.titleout{
+    display: flex;
+    justify-content: center;
+    padding-top: 3vh;
+}
+.startitle{
+    font-size: 1.5rem;
+    
+}
+.subscribe-container {
+            display: flex;
+            width: 100%;
+            max-width: 500px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .email-input-wrapper {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            background-color: white;
+            padding: 0 15px;
+            border: 1px solid #ddd;
+            border-right: none;
+        }
+
+        .email-icon {
+            width: 20px;
+            height: 20px;
+            margin-right: 10px;
+            color: #666;
+        }
+
+        .email-input {
+            flex: 1;
+            border: none;
+            outline: none;
+            padding: 15px 0;
+            font-size: 14px;
+            color: #333;
+        }
+
+        .email-input::placeholder {
+            color: #999;
+            text-transform: uppercase;
+            font-size: 12px;
+            letter-spacing: 0.5px;
+        }
+
+        .subscribe-button {
+            background-color: #000;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 12px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .subscribe-button:hover {
+            background-color: #333;
+        }
+
+        .subscribe-button:active {
+            background-color: #555;
+        }
+        .emailout{
+            display: flex;
+            justify-content: center;
+            padding-top: 3vh;
+        }
+
+        .footer-container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 60px;
+            margin-bottom: 60px;
+        }
+
+        .footer-column h3 {
+            font-size: 14px;
+            font-weight: bold;
+            letter-spacing: 1px;
+            margin-bottom: 25px;
+            text-transform: uppercase;
+        }
+
+        .footer-column ul {
+            list-style: none;
+        }
+
+        .footer-column ul li {
+            margin-bottom: 15px;
+        }
+
+        .footer-column ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 14px;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+            transition: opacity 0.3s ease;
+        }
+
+        .footer-column ul li a:hover {
+            opacity: 0.7;
+        }
+
+        .social-icons {
+            display: flex;
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+
+        .social-icons a {
+            color: #fff;
+            font-size: 20px;
+            transition: opacity 0.3s ease;
+        }
+
+        .social-icons a:hover {
+            opacity: 0.7;
+        }
+
+        .logo-section {
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        .logo {
+            width: 100px;
+            height: 100px;
+            border: 3px solid #fff;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 11px;
+            font-weight: bold;
+            letter-spacing: 1px;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .logo-text {
+            transform: rotate(-10deg);
+        }
+
+        .footer-bottom {
+            border-top: 1px solid #333;
+            padding-top: 30px;
+            font-size: 14px;
+            letter-spacing: 0.5px;
+        }
+
+
+@media (max-width: 950px) {
+    .nav2{
+        display: none;
+    }
+    .gout{
+        font-size: 10px;
+        padding-top: 25px;
+    }
+    .logo{
+    width: 15vw;
+    height: 5vh;
+    
+}
+.logo img{
+    width: 15vw;
+    height: 5vh;
+}
+.your{
+    font-size: 12px;
+}
+.subscribe-container {
+                max-width: 90%;
+            }
+            
+            .subscribe-button {
+                padding: 15px 20px;
+            }
+        }
+
+
+        .footout{
+            background-color: #000;
+        }
