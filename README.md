@@ -50,10 +50,6 @@ A high-fidelity landing page and multi-page clone of the **Corkcicle** website. 
 3. **Open in Browser**:
    Simply open `index.html` in any web browser.
 
-## 📸 Screenshots
-
-*(Add your screenshots here)*
-- ![Home Page](Screenshot%202025-11-10%20093947.png)
 
 ## 🌟 Credits
 
