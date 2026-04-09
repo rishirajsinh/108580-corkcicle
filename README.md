@@ -3,8 +3,7 @@
 A high-fidelity landing page and multi-page clone of the **Corkcicle** website. This project focuses on modern web design, responsive layouts, and clean CSS styling to mimic a premium e-commerce user experience.
 
 ## 🚀 Live Demo
-*(If you have deployed this project, add the link here)*
-🔗 [https://108580-corkcicle.netlify.app/]
+🔗 https://108580-corkcicle.netlify.app/
 
 ## 🛠️ Tech Stack
 
