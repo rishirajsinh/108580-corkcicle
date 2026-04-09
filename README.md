@@ -4,7 +4,7 @@ A high-fidelity landing page and multi-page clone of the **Corkcicle** website. 
 
 ## 🚀 Live Demo
 *(If you have deployed this project, add the link here)*
-🔗 [Live Link Placeholder]
+🔗 [https://108580-corkcicle.netlify.app/]
 
 ## 🛠️ Tech Stack
 
